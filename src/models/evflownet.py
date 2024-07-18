@@ -4,7 +4,7 @@ from src.models.base import *
 from typing import Dict, Any
 
 _BASE_CHANNELS = 128
-_DROPOUT_PROB = 0.25
+_DROPOUT_PROB = 0.4 #0.4
 
 class EVFlowNet(nn.Module):
     def __init__(self, args):
