@@ -1,7 +1,7 @@
 dataset_path: data
 seed: 42
 best_model_path: "checkpoints/best_model_20240717165029.pth"
-num_epoch: 50
+num_epoch: 100
 num_frames: 2
 data_loader:
   common:
@@ -15,6 +15,6 @@ data_loader:
 train:
   num_frames: 2
   no_batch_norm: false
-  initial_learning_rate: 0.02
+  initial_learning_rate: 0.01
   weight_decay: 0.0001
-  epochs: 50
+  epochs: 100
